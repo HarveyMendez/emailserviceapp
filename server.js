@@ -9,8 +9,7 @@ app.use(bodyParser.json());
 
 app.post('/send-email', (req, res) => {
     const { email, subject, message } = req.body;
-
-    // Configura tu transportador de correo usando variables de entorno
+    
     const transporter = nodemailer.createTransport({
         service: "Gmail",
         host: "smtp.gmail.com",
@@ -18,7 +17,7 @@ app.post('/send-email', (req, res) => {
         secure: true,
         auth: {
             user: "harvey.mendez02@gmail.com",
-            pass: "mkcr nhxx bsme hjf",
+            pass: "epif sxar gmdb wmtq",
         }
     });
 
