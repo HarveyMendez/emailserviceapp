@@ -17,7 +17,7 @@ app.post('/send-email', (req, res) => {
         secure: true,
         auth: {
             user: "harvey.mendez02@gmail.com",
-            pass: "epif sxar gmdb wmtq",
+            pass: "xexp phui ljmk npqa",
         }
     });
 
