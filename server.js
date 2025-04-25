@@ -25,7 +25,7 @@ app.post('/send-email', (req, res) => {
         from: "harvey.mendez02@gmail.com",
         to: email,
         subject: subject,
-        text: message
+        html: message
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
